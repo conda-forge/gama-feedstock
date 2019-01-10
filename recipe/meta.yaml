@@ -12,7 +12,7 @@ source:
     - 0001-fix-cmake-install.patch
 
 build:
-  number: 0
+  number: 1000
   skip: True  # [win and vc<14]
 
 requirements:
