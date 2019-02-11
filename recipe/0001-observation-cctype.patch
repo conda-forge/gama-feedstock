@@ -1,0 +1,12 @@
+diff --git a/lib/gnu_gama/local/observation.h b/lib/gnu_gama/local/observation.h
+index 8216d33..2b69744 100644
+--- a/lib/gnu_gama/local/observation.h
++++ b/lib/gnu_gama/local/observation.h
+@@ -38,6 +38,7 @@
+ 
+ #include <iostream>
+ #include <vector>
++#include <cctype>
+ 
+ #include <gnu_gama/obsdata.h>
+ #include <gnu_gama/local/matvec.h>
