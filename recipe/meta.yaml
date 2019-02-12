@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: http://mirrors.dotsrc.org/gnu/gama/gama-{{ version }}.tar.gz
+  url: http://ftp.gnu.org/gnu/gama/gama-{{ version }}.tar.gz
   sha256: bbfa3bd35deb7c6b482eb74e8e16ce226d4cfc4a796640a261a474ab95f76334
   patches:
     - 0001-observation-cctype.patch
