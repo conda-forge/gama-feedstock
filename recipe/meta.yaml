@@ -20,6 +20,7 @@ requirements:
     - {{ compiler('c')}}
     - {{ compiler('cxx') }}
     - cmake >=3.5  # [win]
+    - expat
 
 test:
   commands:
