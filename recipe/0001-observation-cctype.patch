@@ -1,12 +1,24 @@
+From 57fe9a8ceb6b2c9c2e9f16193fbd5216a4af86f1 Mon Sep 17 00:00:00 2001
+From: Kristian Evers <kristianevers@gmail.com>
+Date: Mon, 20 Jul 2020 15:54:56 +0200
+Subject: [PATCH] patch
+
+---
+ lib/gnu_gama/local/observation.h | 1 +
+ 1 file changed, 1 insertion(+)
+
 diff --git a/lib/gnu_gama/local/observation.h b/lib/gnu_gama/local/observation.h
-index 8216d33..2b69744 100644
+index 269d71c..b5f1343 100644
 --- a/lib/gnu_gama/local/observation.h
 +++ b/lib/gnu_gama/local/observation.h
-@@ -38,6 +38,7 @@
- 
+@@ -40,6 +40,7 @@
  #include <iostream>
  #include <vector>
+ #include <utility>
 +#include <cctype>
  
  #include <gnu_gama/obsdata.h>
  #include <gnu_gama/local/matvec.h>
+-- 
+2.24.0.windows.2
+
