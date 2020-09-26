@@ -1,5 +1,5 @@
 {% set name = "gama" %}
-{% set version = "2.09" %}
+{% set version = "2.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,17 +7,17 @@ package:
 
 source:
   url: http://ftp.gnu.org/gnu/gama/gama-{{ version }}.tar.gz
-  sha256: 89b552d62def84a2e39e351c846c9ea920dd43fe642720b34a20189a1d122b30
+  sha256: dac77e38e3b44a45083fb0b24d104f8e7b9900981a13bd1b8d391104a11a3592
   patches:
     - 0001-observation-cctype.patch
 
 build:
   number: 0
-  skip: True  # [win and vc<14]
+  skip: true  # [win and vc<14]
 
 requirements:
   build:
-    - {{ compiler('c')}}
+    - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake >=3.5  # [win]
 
@@ -31,7 +31,7 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: LICENSE.txt
-  summary: 'Adjustment of geodetic networks'
+  summary: Adjustment of geodetic networks
   description: |
     GNU Gama is a project dedicated to adjustment of geodetic networks.
     It is intended for use with traditional geodetic surveyings which are
