@@ -5,9 +5,13 @@ Home: https://www.gnu.org/software/gama/
 
 Package license: GPL-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gama-feedstock/blob/master/LICENSE.txt)
 
 Summary: Adjustment of geodetic networks
+
+Development: https://git.savannah.gnu.org/cgit/gama.git
+
+Documentation: https://www.gnu.org/software/gama/manual/gama.html
 
 GNU Gama is a project dedicated to adjustment of geodetic networks.
 It is intended for use with traditional geodetic surveyings which are
