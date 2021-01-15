@@ -1,5 +1,5 @@
 {% set name = "gama" %}
-{% set version = "2.12" %}
+{% set version = "2.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: http://ftp.gnu.org/gnu/gama/gama-{{ version }}.tar.gz
-  sha256: d263fe14a2e98cd361a0fdbe8328b87bae44ede311f0b8cf4ac26baab4a2d17d
+  sha256: eb4deaf03cabbf7434c5e3435d987926e4d1e9172c347da220da512257be2c10
   patches:
     - 0001-observation-cctype.patch
 
