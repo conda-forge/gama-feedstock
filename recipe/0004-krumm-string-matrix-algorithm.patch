@@ -1,0 +1,12 @@
+diff --git a/lib/krumm/string_matrix.cpp b/lib/krumm/string_matrix.cpp
+index 8948986..141bbee 100644
+--- a/lib/krumm/string_matrix.cpp
++++ b/lib/krumm/string_matrix.cpp
+@@ -17,6 +17,7 @@
+    along with Krumm2gama-local. If not, see <https://www.gnu.org/licenses/>.
+ */
+ 
++#include <algorithm>
+ #include <krumm/string_matrix.h>
+ 
+ using namespace GNU_gama::local;

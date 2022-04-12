@@ -1,0 +1,12 @@
+diff --git a/lib/krumm/input.cpp b/lib/krumm/input.cpp
+index 27bfb98..7523732 100644
+--- a/lib/krumm/input.cpp
++++ b/lib/krumm/input.cpp
+@@ -24,6 +24,7 @@
+ #include <vector>
+ #include <algorithm>
+ #include <cmath>
++#include <cctype>
+ 
+ using namespace GNU_gama::local;
+ 
