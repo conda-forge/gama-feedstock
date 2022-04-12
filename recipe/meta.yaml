@@ -10,6 +10,7 @@ source:
   sha256: 5cd8bb4a6784e3393cd640075ad2162fb6758e74ea7807bbd72d96b8cbe05d0d
   patches:
     - 0001-observation-cctype.patch
+    - 0002-krum-input-cctype.patch
 
 build:
   number: 0
@@ -20,6 +21,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake >=3.5  # [win]
+    - make  # [not win]
 
 test:
   commands:
