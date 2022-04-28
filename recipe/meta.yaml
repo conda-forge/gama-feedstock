@@ -9,9 +9,6 @@ source:
   url: http://ftp.gnu.org/gnu/gama/gama-{{ version }}.tar.gz
   sha256: 382c9470a910ce9d67cfd960192478311acfed7051d64a487cf100ecf7520352
   patches:
-    - 0001-observation-cctype.patch
-    - 0002-krum-input-cctype.patch
-    - 0003-krum-output-cctype.patch
     - 0004-krumm-string-matrix-algorithm.patch
 
 build:
