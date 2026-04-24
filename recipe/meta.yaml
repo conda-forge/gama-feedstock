@@ -1,5 +1,5 @@
 {% set name = "gama" %}
-{% set version = "2.19" %}
+{% set version = "2.23" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: http://ftp.gnu.org/gnu/gama/gama-{{ version }}.tar.gz
-  sha256: 382c9470a910ce9d67cfd960192478311acfed7051d64a487cf100ecf7520352
+  sha256: 38a5408261dd850a12de40b072513d96338ddc7d8d5420afa51da18307ea9c0d
   patches:
     - 0004-krumm-string-matrix-algorithm.patch
 
